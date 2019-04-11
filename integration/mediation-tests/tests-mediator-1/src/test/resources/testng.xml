@@ -73,6 +73,8 @@
 
     <test name="Call-mediator-Test" preserve-order="true" verbose="2">
         <classes>
+            <class name="org.wso2.carbon.esb.mediator.test.call.CallMediatorBlockingSenderTestCase"/>
+            <class name="org.wso2.carbon.esb.mediator.test.call.CallMediatorNonBlockingSenderTestCase"/>
             <!--<class name="org.wso2.carbon.esb.mediator.test.call.CallMediatorAPIWithNamedSeqCase"/>-->
             <class name="org.wso2.carbon.esb.mediator.test.call.CallMediatorBlockingAPITestCase"/>
             <class name="org.wso2.carbon.esb.mediator.test.call.CallMediatorBlockingDirectEndpointTestCase"/>
