@@ -28,7 +28,7 @@
     <groupId>org.wso2.ei</groupId>
     <artifactId>wso2ei-parent</artifactId>
     <packaging>pom</packaging>
-    <version>6.6.0-SNAPSHOT</version>
+    <version>6.7.0-SNAPSHOT</version>
     <name>WSO2 Enterprise Integrator</name>
     <url>http://wso2.com/products/enterprise-integrator/</url>
     <description>WSO2 Enterprise Integrator</description>
@@ -47,6 +47,7 @@
         <module>p2-profile</module>
         <module>distribution</module>
         <module>integration</module>
+        <module>migration/migration-service</module>
     </modules>
 
     <dependencyManagement>
@@ -1593,6 +1594,12 @@
                 <artifactId>org.wso2.ei.mb.platform.common.utils</artifactId>
                 <version>${product.ei.version}</version>
             </dependency>
+            <!--SAP feature dependency-->
+            <dependency>
+                <groupId>org.wso2.carbon.mediation</groupId>
+                <artifactId>sap-adapter</artifactId>
+                <version>${sap-adapter.feature.version}</version>
+            </dependency>
             <!-- JMS 2.0 API dependency -->
             <dependency>
                 <groupId>javax.jms</groupId>
@@ -1648,7 +1655,7 @@
 
         <!--Product Version-->
 
-        <product.ei.version>6.6.0-SNAPSHOT</product.ei.version>
+        <product.ei.version>6.7.0-SNAPSHOT</product.ei.version>
 
         <!--Business-Process-->
         <carbon.business-process.version>4.5.27</carbon.business-process.version>
@@ -1689,7 +1696,7 @@
         <org.apache.httpcomponents.wso2.version>4.3.6.wso2v2</org.apache.httpcomponents.wso2.version>
 
         <!-- Carbon mediation version -->
-        <carbon.mediation.version>4.7.30</carbon.mediation.version>
+        <carbon.mediation.version>4.7.33</carbon.mediation.version>
 
         <!-- Carbon kernel version-->
         <carbon.kernel.version>4.5.3</carbon.kernel.version>
@@ -1761,6 +1768,9 @@
         <!-- Stratos -->
         <stratos.version>2.2.0</stratos.version>
 
+        <!-- SAP adapter - sap transport feature version -->
+        <sap-adapter.feature.version>4.7.33</sap-adapter.feature.version>
+
         <!-- mysql-connector-java -->
         <mysql-connector-java.version>5.1.6</mysql-connector-java.version>
 
@@ -1823,7 +1833,7 @@
         <netty.version>4.1.11.Final</netty.version>
 
         <!-- auto Framework versions -->
-        <automation.framework.version>4.4.4</automation.framework.version>
+        <automation.framework.version>4.4.7</automation.framework.version>
         <automation.framework.utils.version>4.5.0</automation.framework.utils.version>
         <jettison.orbit.version>1.3.4.wso2v1</jettison.orbit.version>
         <operadriver.version>0.8.1</operadriver.version>
@@ -1844,14 +1854,15 @@
 
         <!-- Maven Plugin Version -->
         <maven.build.helper.plugin.version>1.8</maven.build.helper.plugin.version>
+        <maven.bundle.plugin.version>3.2.0</maven.bundle.plugin.version>
         <maven.xmlbeans-maven-plugin.plugin.version>2.3.3</maven.xmlbeans-maven-plugin.plugin.version>
         <maven.docker.plugin.version>0.22.1</maven.docker.plugin.version>
         <maven.failsafe.plugin.version>2.22.0</maven.failsafe.plugin.version>
         <maven.eclipse.plugin.version>2.10</maven.eclipse.plugin.version>
         <greenmail.version>1.3</greenmail.version>
-        <opensaml.orbit.version>2.6.4.wso2v5</opensaml.orbit.version>
+        <opensaml.orbit.version>3.3.1.wso2v1</opensaml.orbit.version>
         <!-- Forget-me tool -->
-        <forgetme.tool.version>1.2.0</forgetme.tool.version>
+        <forgetme.tool.version>1.2.1</forgetme.tool.version>
 
         <securevault.version>1.1.3</securevault.version>
         <awaitility.version>3.1.2</awaitility.version>
