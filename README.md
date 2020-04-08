@@ -3,7 +3,7 @@
 
 [![Build Status][badge-travis-image]][badge-travis-url]
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/wso2/product-ei/blob/master/LICENSE)
-[<img src="https://img.shields.io/badge/Slack-@wso2--ei-blue">](https://wso2-ei.slack.com/messages/general/)
+[<img src="https://img.shields.io/badge/Slack-@wso2--ei-blue">](https://ei-slack.wso2.com/)
 [![Twitter](https://img.shields.io/twitter/follow/wso2.svg?style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=wso2)
 
 # WSO2 Enterprise Integrator
@@ -120,7 +120,7 @@ WSO2 EI is packaged in several forms for different platforms and environments. H
 |Platform                 |  OS                  | Infrastructure Mgt  |
 |-------------------------|----------------------|---------------------|
 |[WSO2 EI AWS CloudFormation](https://wso2.com/integration/install/aws/community/get-started/) |[WSO2 EI installer](https://wso2.com/integration/install/download/?type=win64) for Windows  |[WSO2 EI Puppet Install](https://wso2.com/integration/install/puppet/)   |
-|[WSO2 EI Kubernetes](https://wso2.com/integration/install/kubernetes/community/get-started/)  |[WSO2 EI installer](https://wso2.com/integration/install/download/?type=mac) for Mac        |[WSO2 EI Ancible Install](https://wso2.com/integration/install/ansible/) |
+|[WSO2 EI Kubernetes](https://wso2.com/integration/install/kubernetes/community/get-started/)  |[WSO2 EI installer](https://wso2.com/integration/install/download/?type=mac) for Mac        |[WSO2 EI Ansible Install](https://wso2.com/integration/install/ansible/) |
 |[WSO2 EI Docker](https://wso2.com/integration/install/docker/community/get-started/)          |[WSO2 EI installer](https://wso2.com/integration/install/download/?type=ubuntu) for Ubuntu  |   |
 |[WSO2 EI Vagrant](https://wso2.com/integration/install/vagrant/community/get-started/)        |[WSO2 EI installer](https://wso2.com/integration/install/download/?type=centos) for CentOS  |   |
 |[WSO2 EI Helm](https://wso2.com/integration/install/helm/community/get-started/)              |   |   |
